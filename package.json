@@ -2,9 +2,12 @@
   "name": "electron-nedb",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Simple nedb for your Electron app",
   "repository": "https://github.com/abdullah-bl/electron-nedb",
   "author": "abdullah-bl <ABAD-i@hotmail.com>",
   "license": "MIT",
+  "files": ["index.js"],
+  "keywords": ["electron", "nedb", "nedb-promises", "store", "storage", "persistent"],
   "dependencies": {
     "nedb-promises": "^4.0.1"
   },

@@ -1,6 +1,5 @@
 'use strict';
 
-
 const electron = require('electron')
 const DataStore = require('nedb-promises')
 
