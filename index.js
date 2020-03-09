@@ -15,7 +15,8 @@ const Collection = (filename, options) =>
   DataStore.create(Object.assign({
     filename: `${isDev ? `db/${filename}-dev.db` : `${app.getPath('userData')}/data/db/${filename}.db`}`,
     autoload: true,
-    timestampData: true
+    timestampData: true,
+    inMemoryOnly: !app ? true : false
   }, options))
 
 module.exports = Collection
